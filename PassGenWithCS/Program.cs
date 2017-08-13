@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace PassGenWithCS
 {
@@ -17,11 +18,23 @@ namespace PassGenWithCS
             String input = Console.ReadLine();
             Console.Write("Enter order: ");
             String order = Console.ReadLine();
-
-
+            
             CheckEn checkEn = new CheckEn(input, order, check);
+            string str = checkEn.StartEn();
+            Console.Write("Your code: " + str);
+            
+            //File.WriteAllText(@"d:\programming\c#\test.txt", str);
 
-            Console.Write("Your code: " + checkEn.StartEn());
+
+
+
+            //string str = File.ReadAllText(@"d:\programming\c#\test.txt");
+            //CheckEn checken = new CheckEn(str, "1451400181547369693", "d");
+            //string x = checken.StartEn();
+            //Console.WriteLine(x);
+
+
+
 
             Console.ReadLine();
         }
