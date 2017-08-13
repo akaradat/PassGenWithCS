@@ -10,8 +10,12 @@ namespace PassGenWithCS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
-                
+            Encrypt en = new En0(Console.ReadLine());
+
+            Console.WriteLine(en.DePass());
+            Console.ReadLine();
         }
+        
+        
     }
 }
