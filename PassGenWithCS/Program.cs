@@ -10,6 +10,8 @@ namespace PassGenWithCS
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world");
+                
         }
     }
 }
