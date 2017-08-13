@@ -45,6 +45,13 @@
     <Compile Include="En0.cs" />
     <Compile Include="En1.cs" />
     <Compile Include="En2.cs" />
+    <Compile Include="En3.cs" />
+    <Compile Include="En4.cs" />
+    <Compile Include="En5.cs" />
+    <Compile Include="En6.cs" />
+    <Compile Include="En7.cs" />
+    <Compile Include="En8.cs" />
+    <Compile Include="En9.cs" />
     <Compile Include="Encrypt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
