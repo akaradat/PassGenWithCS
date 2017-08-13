@@ -10,9 +10,19 @@ namespace PassGenWithCS
     {
         static void Main(string[] args)
         {
-            Encrypt en = new En0(Console.ReadLine());
+            Console.Write("Do you want to Encrypt oe De crypt(E/D): ");
+            String check = Console.ReadLine();
 
-            Console.WriteLine(en.DePass());
+            Console.Write("Enter code: ");
+            String input = Console.ReadLine();
+            Console.Write("Enter order: ");
+            String order = Console.ReadLine();
+
+
+            CheckEn checkEn = new CheckEn(input, order, check);
+
+            Console.Write("Your code: " + checkEn.StartEn());
+
             Console.ReadLine();
         }
         

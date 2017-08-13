@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckEn.cs" />
     <Compile Include="En0.cs" />
     <Compile Include="En1.cs" />
     <Compile Include="En2.cs" />
